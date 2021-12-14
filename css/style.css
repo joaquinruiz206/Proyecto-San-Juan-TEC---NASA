@@ -1,5 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Fredoka+One&family=Fugaz+One&family=Kanit:wght@500&family=Neuton&family=Open+Sans:wght@600;700&family=Raleway:wght@500&family=Righteous&family=Rubik:wght@500&family=Staatliches&display=swap');
+
 *{
     margin: 0;
+    padding: 0;
+}
+/*fuente para la pag*/
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background: url(./assets/cielo\ gris.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    
+}
+
+/*formato del header*/
+
+header{
+    height: 100vh;
+    width: 100%;
+    
+}
+/* check hacerlo desaparecer */
+
+#check{
+    display: none;
+}
+
+header label{
+    display: none;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+
+}
+
+header label:hover{
+    cursor: pointer;
+    background: rgba(0,0,0,0,3);
+}
+/* formato de la navBar */
+
+.navBar ul{
     margin: 0;
-    box-sizing: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+.navMenu li:hover{
+    background: rgba(0,0,0,0,3);
+}
+.navBar li a {
+    display: block;
+    padding: 15px 20px;
+    color: #343a40;
+    text-decoration: none;
+}
+
+nav{
+    background-color: #ffff ;
+    display: flex;
+
+}
+
+/*formato del logo de la navBar*/
+
+.logoNav{
+    height: 20vh;
+    width: 100px;
+}
+
+/* formato footer */
+
+.containFooter{
+    background-color: #343a40;
+    height: 90px;
+}
+
+/* logo footer */
+
+.logoF{
+    height: 50px;
+    width: 50px;
 }
