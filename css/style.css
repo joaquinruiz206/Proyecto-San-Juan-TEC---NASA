@@ -86,8 +86,28 @@ li a:hover{
         float: left;
     }
 
-    header nav{
+    .nav-disable{
         display: none;
+    }
+
+    header nav{
+        height: 100vh;
+        z-index: 100000;
+        position: fixed;
+        left: 0;
+        top: 0;
+        background-color: #0a1a2a;
+    }
+
+    header nav ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+        align-items: center;
+        font-size: 2rem;
+        padding: 20;
     }
 
     .iconos{
@@ -95,13 +115,15 @@ li a:hover{
     }
 }
 
+html,body{
+    height: 100%;
+}
+
 /* formato footer */
 
 .pie-pagina{
     width: 100%;
     background-color: #0a141d;
-    position:absolute;
-    bottom: 0;
 }
 
 .pie-pagina .grupo-1{
@@ -186,7 +208,6 @@ li a:hover{
 .contCard{
     width: 100%;
     max-width: 1200px;
-    height: 430px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
