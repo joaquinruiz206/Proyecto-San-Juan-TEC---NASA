@@ -194,21 +194,21 @@ li a:hover{
     width: 330px;
     height: 430px;
     border-radius: 8px;
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0, 0.2);
     overflow: hidden;
     margin:20px;
     text-align: center;
     transition: all 0.25s;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
  /* movimineto de la card*/
 .contCard .card:hover{
     transform: translateY(-15px);
-    box-shadow: 0 12px 16px rgba(0, 0, 0, 0, 0.2);
+    box-shadow: 3px 3px 3px 3px#0d2033;
 }
 /*imagen de la card*/
 .contCard .card img{
-    width: 330px;
-    height: 220px;
+    width: 150px;
+    height: 150px;
 }
 /*Titulo de la card*/
 .contCard .card h4{
