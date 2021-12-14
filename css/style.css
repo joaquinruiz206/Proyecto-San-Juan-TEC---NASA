@@ -87,12 +87,100 @@ nav{
     box-sizing: 0;
 }
 
-body{
+/* body{
     font-family:'Roboto', sans-serif;
+} */
+
+ 
+
+
+/* formato del login */
+
+.login-box {
+    opacity: .9;
+    width: 320px;
+    height: 400px;
+    background-color: #023e8a;
+    color: #fff;
+    top: 0;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, 50%);
+    box-sizing: border-box;
+    padding: 70px 30px; 
+    border-radius: 10%;  
 }
 
-    box-sizing: 0;
+.login-box .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px); 
+    object-position: 50%;   
+    background-color: #fff;
+}
+.login-box h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;  
+      
+}
+.login-box label {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
 
+.login-box input {
+    width: 100%;
+    margin-bottom: 20px;
+    
+    
+}
+.login-box input[type= "text"],
+.login-box input[type= "password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    
+
+}
+
+::placeholder {
+    color: rgb(218, 216, 216);
+    font-size: 1em;
+}
+
+.login-box input[type="submit"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background:rgb(30, 32, 39);
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.login-box a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: rgb(170, 165, 165);
+}
+
+.login-box a:hover{
+    color: #fff
+
+}
 
 
 
