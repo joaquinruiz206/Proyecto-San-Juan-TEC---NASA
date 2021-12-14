@@ -44,6 +44,7 @@ header label:hover{
 
 .navBar ul{
     margin: 0;
+<<<<<<< HEAD
     list-style: none;
     padding: 0;
     display: flex;
@@ -84,4 +85,11 @@ nav{
 .logoF{
     height: 50px;
     width: 50px;
+=======
+    box-sizing: 0;
+}
+
+body{
+    font-family:'Roboto', sans-serif;
+>>>>>>> b8966a586e68a39fface13fe737055ff4c16a791
 }
