@@ -100,8 +100,7 @@ li a:hover{
 .pie-pagina{
     width: 100%;
     background-color: #0a141d;
-    position:absolute;
-    bottom: 0;
+  
 }
 
 .pie-pagina .grupo-1{
@@ -178,7 +177,6 @@ li a:hover{
 .tituloPlanetas{
     text-align: center;
     margin-top: 50px;
-    
     font-size: 40px;
     line-height: 1.6;
 }
@@ -186,7 +184,7 @@ li a:hover{
 .contCard{
     width: 100%;
     max-width: 1200px;
-    height: 430px;
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
