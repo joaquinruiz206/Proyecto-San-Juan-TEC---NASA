@@ -252,16 +252,22 @@ html,body{
 }
 
 
- 
+ /* formato del login */
 
-
-/* formato del login */
+.mainLogin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #dee2e6;
+}
 
 .login-box {
     opacity: .9;
     width: 320px;
     height: 400px;
-    background-color: #023e8a;
+    background-color: #001845;
     color: #fff;
     top: 0;
     left: 50%;
@@ -287,8 +293,8 @@ html,body{
     padding: 0 0 20px;
     text-align: center;
     font-size: 22px;  
-      
 }
+
 .login-box label {
     margin: 0;
     padding: 0;
@@ -299,9 +305,8 @@ html,body{
 .login-box input {
     width: 100%;
     margin-bottom: 20px;
-    
-    
 }
+
 .login-box input[type= "text"],
 .login-box input[type= "password"]{
     border: none;
@@ -311,8 +316,6 @@ html,body{
     height: 40px;
     color: rgb(255, 255, 255);
     font-size: 16px;
-    
-
 }
 
 ::placeholder {
@@ -338,7 +341,7 @@ html,body{
     color: rgb(170, 165, 165);
 }
 
-.login-box a:hover{
+/* .login-box a:hover{
     color: #fff
 
-}
+} */
