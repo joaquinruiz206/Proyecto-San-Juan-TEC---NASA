@@ -86,13 +86,37 @@ li a:hover{
         float: left;
     }
 
-    header nav{
+    .nav-disable{
         display: none;
+    }
+
+    header nav{
+        height: 100vh;
+        z-index: 100000;
+        position: fixed;
+        left: 0;
+        top: 0;
+        background-color: #0a1a2a;
+    }
+
+    header nav ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+        align-items: center;
+        font-size: 2rem;
+        padding: 20;
     }
 
     .iconos{
         display: flex;
     }
+}
+
+html,body{
+    height: 100%;
 }
 
 /* formato footer */
@@ -227,10 +251,6 @@ li a:hover{
     text-decoration: none;
     color: #3498db;
 }
-
-
- 
-
 
 /* formato del login */
 
