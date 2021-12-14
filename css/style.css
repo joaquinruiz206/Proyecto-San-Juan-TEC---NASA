@@ -3,7 +3,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: 0;
+    box-sizing: border-box;
 }
 /*fuente para la pag*/
 
@@ -13,7 +13,6 @@ body{
     background-repeat: no-repeat;
     background-position:center;
     background-size: cover;
-    
 }
 
 /*formato del header*/
@@ -21,57 +20,79 @@ body{
 header{
     height: 20vh;
     width: 100%;
-    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #0a141d;
 }
-/* check hacerlo desaparecer */
 
-#check{
+/*formato logo del nav*/
+
+header div img{
+    height: 100px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+/*menu de navegacion*/
+
+header nav ul{
+    display: flex;
+	justify-content: space-around;
+	align-items: center;	
+}
+
+header nav ul li{
+	padding: 0 20px;
+	list-style: none;
+}
+
+header nav ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 10px 20px;
+	transition: 0.4s;
+	border-radius: 10px;
+	text-transform: uppercase;
+}
+
+li a:hover{
+    background-color: #343a40;
+}
+
+.iconos{
     display: none;
 }
 
-header label{
-    display: none;
-    width: 30px;
-    height: 30px;
-    padding: 10px;
-
-}
-
-header label:hover{
+.iconos i{
+    font-size: 50px;
     cursor: pointer;
-    background: rgba(0,0,0,0,3);
-}
-/* formato de la navBar */label
-
-.navBar ul{
-    margin: 0;
-    list-style: none;
-    
-    padding: 0;
-    display: flex;
-    justify-content: flex-end;
-}
-.navMenu li:hover{
-    background: rgba(0,0,0,0,3);
-}
-.navBar li a {
-    display: block;
-    padding: 15px 20px;
-    color: #343a40;
-    text-decoration: none;
 }
 
-nav{
-    background-color: rgba(184, 184, 184, 0.933) ;
-    display: flex;
-
+.disable{
+    display: none !important;
 }
 
-/*formato del logo de la navBar*/
+@media (max-width: 991px){
+    header{
+        width: 100%;
+        position: fixed
+    }
 
-.logoNav{
-    height: 20vh;
-    width: 100px;
+    header div img{
+        padding left: 20px;
+        position: relative;
+        float: left;
+    }
+
+    header nav{
+        display: none;
+    }
+
+    .iconos{
+        display: flex;
+    }
 }
 
 /* formato footer */

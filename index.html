@@ -9,6 +9,7 @@
       <!-- Link de Ico -->
     <script src="https://kit.fontawesome.com/7c935897fa.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="./assets/nasa-6.svg" type="./assets/nasa-6.svg.svg">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
       <!-- Link del Css -->
     <link rel="stylesheet" href="css/style.css">
@@ -17,40 +18,26 @@
 
 <body>
       <!-- Encabezado -->
-  <header class="contNav">
+  <header>
+    <div>
+      <a href="./index.html"><img src="./assets/logo.png"></a>
+    </div>
 
-       <!-- Barra de navegacion -->
-    <nav class="navBar">
-        
-      <div>   <!-- LOGO -->
-        <a href="./index.html"><img src="./assets/brand_nasa_icon_157866.svg" alt="logo" class="logoNav"></a>
-      </div>
-
-      <input type="checkbox" id="check">
-
-      <label for="check" class="barBtn">
-          <i class="fas fa-bars"></i>
-      </label>
-              <!-- Opciones del la barra de navegacion -->
-      <ul class="navMenu">
-        <li><a href="">Home</a></li>
-        <li><a href="">Planetas</a></li>
-        <li><a href="./index2.html">Login</a></li>
+    <nav>
+      <ul>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">PLanetas</a></li>
+          <li><a href="./index2.html">Login</a></li>
+        </ul>
       </ul>
-
     </nav>
 
-   </header>
-
-   <section>
-       <ul>
-           <li><a href="">regerfe</a></li>
-           <li><a href="">rerfefe</a></li>
-           <li><a href="">refeaf</a></li>
-           <li><a href="">erfef</a></li>
-           <li><a href="">refaeeeeeeeeee</a></li>
-       </ul>
-   </section>
+    <div class="iconos">
+      <i class='bx bx-menu'></i>
+      <i class='bx bx-x disable'></i>
+    </div>
+  </header>
      <!-- CUERPO DE PAGINA -->
    <main>
          <!-- CARDS -->
@@ -118,7 +105,7 @@
   <div class="grupo-2">
       <small>&copy; 2021 <b>NASA</b> - Todos los Derechos Reservados.</small>
   </div>
-  <!-- Scrip -->
-<script src="app.js"></script>
+  <!-- Script -->
+<script src="./js/main.js"></script>
 </body>
 </html>
