@@ -9,10 +9,10 @@
 
 body{
     font-family: 'Raleway', sans-serif;
-    background-image: url(assets/cielo-gris.jpg);
+    /* background: url(/assets);
     background-repeat: no-repeat;
     background-position:center;
-    background-size: cover;
+    background-size: cover; */
 }
 
 /*formato del header*/
@@ -261,7 +261,11 @@ html,body{
     align-items: center;
     height: 100vh;
     width: 100%;
-    background-color: #dee2e6;
+    background: url(/assets/galaxia.gif);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+
 }
 
 .login-box {
