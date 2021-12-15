@@ -154,9 +154,12 @@ html,body{
     margin-bottom: 25px;
     font-size: 20px;
 }
-.pie-pagina .grupo-1 .box .integrantes a{
+
+.pie-pagina .grupo-1 .box .integrantes {
     text-decoration: none;
-    color: blanchedalmond;
+    color: rgb(255, 132, 0);
+    display: flex;
+    margin:20px;
 }
 
 .pie-pagina .grupo-1 .box p{
@@ -212,7 +215,7 @@ html,body{
 /*Titulo de las cards*/
 .tituloPlanetas{
     text-align: center;
-    padding-top: 10px;
+    padding-top: 40px;
     margin-top: 0px;
     font-size: 40px;
     color: antiquewhite;
@@ -270,6 +273,13 @@ html,body{
     text-decoration: none;
     color: #3498db;
     
+}
+
+
+@media screen and (max-width:800px){
+    .contCard .card img{ 
+        margin-left: 25px;
+    }
 }
 
  /* formato del login */
