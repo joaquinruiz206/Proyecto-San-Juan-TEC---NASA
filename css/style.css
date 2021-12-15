@@ -27,13 +27,29 @@ header{
     background-color: #0a141d;
 }
 
+.planetStyle{
+    background: transparent;
+    border: none;
+    color: #fff;
+}
+
+.submenu{
+    display: none;
+}
+
+.submenuUnhide{
+    display: block;
+    position: absolute;
+    margin-top: 20vh;
+    margin-left: -12vh;
+    color: #fff;
+}
 /*formato logo del nav*/
 
 header div img{
     height: 100px;
     display: flex;
 }
-
 /*menu de navegacion*/
 
 header nav ul{
@@ -111,6 +127,15 @@ li a:hover{
     .iconos{
         display: flex;
     }
+
+    .submenuUnhide{
+        background-color: #0a141d;
+        display: block;
+        position: relative;
+        margin-top: 20vh;
+        margin-left: -12vh;
+        color: #fff;
+    }
 }
 
 html,body{
@@ -152,9 +177,12 @@ html,body{
     margin-bottom: 25px;
     font-size: 20px;
 }
-.pie-pagina .grupo-1 .box .integrantes a{
+
+.pie-pagina .grupo-1 .box .integrantes {
     text-decoration: none;
-    color: blanchedalmond;
+    color: rgb(255, 132, 0);
+    display: flex;
+    margin:20px;
 }
 
 .pie-pagina .grupo-1 .box p{
@@ -210,7 +238,7 @@ html,body{
 /*Titulo de las cards*/
 .tituloPlanetas{
     text-align: center;
-    padding-top: 10px;
+    padding-top: 40px;
     margin-top: 0px;
     font-size: 40px;
     color: antiquewhite;
@@ -267,6 +295,13 @@ html,body{
     text-decoration: none;
     color: #3498db;
     
+}
+
+
+@media screen and (max-width:800px){
+    .contCard .card img{ 
+        margin-left: 25px;
+    }
 }
 
  /* formato del login */
