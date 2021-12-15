@@ -272,13 +272,26 @@ html,body{
     
 }
 
-/* formato del login */
+ /* formato del login */
+ .mainLogin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background: url(/assets/galaxia.gif);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+
+}
 
 .login-box {
+    margin-top: 250px;
     opacity: .9;
     width: 320px;
     height: 400px;
-    background-color: #023e8a;
+    background-color: #001845;
     color: #fff;
     top: 0;
     left: 50%;
@@ -288,7 +301,7 @@ html,body{
     padding: 70px 30px; 
     border-radius: 10%;  
 }
-
+    
 .login-box .avatar {
     width: 100px;
     height: 100px;
@@ -299,13 +312,14 @@ html,body{
     object-position: 50%;   
     background-color: #fff;
 }
+
 .login-box h1 {
     margin: 0;
     padding: 0 0 20px;
     text-align: center;
     font-size: 22px;  
-      
 }
+
 .login-box label {
     margin: 0;
     padding: 0;
@@ -327,16 +341,14 @@ html,body{
     height: 40px;
     color: rgb(255, 255, 255);
     font-size: 16px;
-    
-
 }
 
 ::placeholder {
     color: rgb(218, 216, 216);
     font-size: 1em;
 }
-
-.login-box input[type="submit"]{
+/* .login-box input{ */
+    .btn-secondary{
     border: none;
     border-bottom: 1px solid #fff;
     background:rgb(30, 32, 39);
@@ -345,8 +357,8 @@ html,body{
     color: #fff;
     font-size: 18px;
     border-radius: 10px;
+    width: 100%;
 }
-
 .login-box a{
     text-decoration: none;
     font-size: 12px;
@@ -356,6 +368,4 @@ html,body{
 
 .login-box a:hover{
     color: #fff
-
 }
-
