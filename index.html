@@ -28,14 +28,19 @@
     <nav class="nav-disable">
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="#">PLanetas</a></li>
+          <button onclick="openSubmenu(this)" class="planetStyle">PLANETS</button>
+            <ul class="submenu">
+              <li><a href="mercurio.html"></a>Mercurio</li>
+              <li><a href="venus.html"></a>Venus</li>
+              <li><a href="tierra.html"></a>Tierra</li>
+              <li><a href="marte.html"></a>Marte</li>
+            </ul>
           <li><a href="./login.html">Login</a></li>
         </ul>
     </nav>
 
     <button onclick="openMenu(this)" class="iconos">
       <i class='bx bx-menu'></i>
-      <i class='bx bx-x disable'></i>
     </button>
   </header>
      <!-- CUERPO DE PAGINA -->
