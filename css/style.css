@@ -224,7 +224,8 @@ html,body{
     transition: all 0.25s;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
- /* movimineto de la card*/
+
+/* movimineto de la card*/
 .contCard .card:hover{
     transform: translateY(-15px);
     box-shadow: 3px 3px 3px 3px#0d2033;
@@ -323,7 +324,8 @@ html,body{
     font-size: 1em;
 }
 
-.login-box input[type="submit"]{
+/* .login-box input{ */
+    .btn-secondary{
     border: none;
     border-bottom: 1px solid #fff;
     background:rgb(30, 32, 39);
@@ -332,6 +334,7 @@ html,body{
     color: #fff;
     font-size: 18px;
     border-radius: 10px;
+    width: 100%;
 }
 
 .login-box a{
@@ -341,7 +344,7 @@ html,body{
     color: rgb(170, 165, 165);
 }
 
-/* .login-box a:hover{
+.login-box a:hover{
     color: #fff
 
-} */
+}
