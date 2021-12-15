@@ -241,12 +241,12 @@ html,body{
     text-align: center;
     transition: all 0.25s;
     background-color: #fff;
-    box-shadow: 5px 5px 5px 5px rgba(6, 159, 230, 0.234);
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.987);
 }
  /* movimineto de la card*/
 .contCard .card:hover{
     transform: translateY(-15px);
-    box-shadow: 3px 3px 3px 3px rgba(6, 159, 230, 0.234);
+    box-shadow: 7px 7px 7px 7px rgba(0, 229, 255, 0.398);
 }
 /*imagen de la card*/
 .contCard .card img{
@@ -277,8 +277,11 @@ html,body{
 
 
 @media screen and (max-width:800px){
-    .contCard .card img{ 
+    .contCard .card img{
+        
         margin-left: 25px;
+        
+        
     }
 }
 
