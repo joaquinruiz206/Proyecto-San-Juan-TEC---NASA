@@ -247,10 +247,11 @@ html,body{
 }
 /*imagen de la card*/
 .contCard .card img{
-    padding: 20px;
+    padding: 10px;
+    margin-left: 65px;
     width: 200px;
     height: 200px;
-    border: black;
+    
 }
 /*Titulo de la card*/
 .contCard .card h4{
@@ -315,9 +316,8 @@ html,body{
 .login-box input {
     width: 100%;
     margin-bottom: 20px;
-    
-    
 }
+
 .login-box input[type= "text"],
 .login-box input[type= "password"]{
     border: none;
