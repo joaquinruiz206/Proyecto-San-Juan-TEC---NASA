@@ -9,7 +9,7 @@
 
 body{
     font-family: 'Raleway', sans-serif;
-    background-image: url(assets/cielo-gris.jpg);
+    background-image: url("/assets/cielo-gris.jpg");
     background-repeat: no-repeat;
     background-position:center;
     background-size: cover;
@@ -17,20 +17,59 @@ body{
 
 /*formato del header*/
 
-header{
-    height: 20vh;
+.menu{
+    background-color: #0a141d;
+    height: 100px;
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
-    background-color: #0a141d;
+    border-bottom: 1px solid #fff;
+    box-shadow: 5px 0 10px rgba(0, 0, 0, .6);
 }
 
-.planetStyle{
-    background: transparent;
-    border: none;
+.logo{
+    height: 100px;
+    display: flex;
+}
+
+.menu-items{
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+}
+
+.menu-items li{
+    border-radius: 3px;
+    margin: 0 5px;
+}
+
+.menu-items li a{
+    padding: 7px 3px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    text-transform: uppercase;
     color: #fff;
+}
+
+.menu-items li:hover{
+    background-color: #0d2033;
+    color: blue;
+    transition: .4s;
+    border-radius: 5%;
+}
+
+.btn-menu{
+    margin-right: 30px;
+    font-size: 25px;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+}
+
+.unhide{
+    top: 65px;
 }
 
 .submenu{
@@ -44,99 +83,73 @@ header{
     margin-left: -12vh;
     color: #fff;
 }
-/*formato logo del nav*/
 
-header div img{
-    height: 100px;
-    display: flex;
-}
-/*menu de navegacion*/
+@media (max-width: 952px){
+    .menu-items li a{
+        font-size: 16px;
+    }
 
-header nav ul{
-    display: flex;
-	justify-content: space-around;
-	align-items: center;	
+    .logo{
+        padding-left: 35px;
+    }
 }
 
-header nav ul li{
-	padding: 0 20px;
-	list-style: none;
-}
+@media (max-width: 858px){
+    .menu{
+        height: 65px;
+    }
 
-header nav ul li a{
-	text-decoration: none;
-	color: #fff;
-	padding: 10px 20px;
-	transition: 0.4s;
-	border-radius: 10px;
-	text-transform: uppercase;
-}
+    .btn-menu{
+        display: inline-flex;
+    }
 
-li a:hover{
-    background-color: #343a40;
-}
-
-.iconos{
-    display: none;
-}
-
-.iconos i{
-    font-size: 50px;
-    cursor: pointer;
-}
-
-.disable{
-    display: none !important;
-}
-
-@media (max-width: 800px){
-    header{
+    .menu-items{
+        position: fixed;
         width: 100%;
-        position: sticky;
-        
-    }
-
-    header div img{
-        padding-left: 20px;
-        position: relative;
-        float: left;
-    }
-
-    .nav-disable{
-        display: none;
-    }
-
-    header nav{
-        width: 100%;
-        height: 100%;
-        font-size: 2rem;
-        top: 0;
-        left: 0;
-        position: relative;
-        background-color: #0a1a2a;
-    }
-
-    header nav ul{
-        display: flex;
+        height: calc(100% - 65px);
+        background: #414141;
+        top: -100vh;
+        text-align: center;
+        transition: all .4s;
         flex-direction: column;
-        height: 100px;
-        align-items: center;
-        justify-content: space-between;
     }
 
-    .iconos{
-        display: flex;
+    .menu-items li{
+        margin: 30px 0 0 0;
+        line-height: 30px;
     }
 
-    .submenuUnhide{
-        background-color: #0a141d;
-        display: block;
-        position: relative;
-        margin-top: 20vh;
-        margin-left: -12vh;
+    .menu-items li:hover{
+        background: none;
+    }
+
+    .menu-items li a{
+        font-size: 20px;
         color: #fff;
+        font-weight: bold;
+    }
+
+    .menu-items li a:hover{
+        color: #0a141d;
+    }
+
+    .logo{
+        padding-left: 35px;
+        height: 65px;
     }
 }
+
+@media (max-width: 858px) and (orientation: landscape){
+    .menu-items li{
+        margin: 5px 0 0 0;
+    }
+
+    .menu-items{
+        overflow: scroll;
+        height: calc(100% - 65px);
+    }
+}
+
 
 html,body{
     height: 100%;

@@ -18,20 +18,16 @@
 <body>
     
   <header>
-    <div>
-      <a href="./index.html"><img src="./assets/logo.png"></a>
-    </div>
-
-    <nav class="nav-disable">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-        </ul>
+    <nav class="menu">
+      <label class="logo"><img src="assets/logo.png" alt="Logo de la NASA"></label>
+      <ul class="menu-items">
+        <li class="active"><a href="index.html">Inicio</a></li>
+      </ul>
+      <span onclick="openMenu(this)" class="btn-menu">
+        <i class='bx bx-menu'></i>
+      </span>
     </nav>
-
-    <a href="index.html"><button class="iconos">
-      <i class='bx bx-home-alt'></i>
-    </button>
-    </a>
+    
   </header>
 
    <main class="mainLogin">
