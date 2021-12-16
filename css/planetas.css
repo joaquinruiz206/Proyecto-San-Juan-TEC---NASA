@@ -1,6 +1,6 @@
 .titlePlanetas{
     text-align: center;
-    color: black;
+    color: #2D697F;
 }
 
 .fondo {
@@ -9,8 +9,7 @@
 
 .contCard2{
     width: 100%;
-    max-width: 1200px;
-    
+    max-width: 100%;    
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -34,10 +33,78 @@
     margin-left: 20%;
 }
 
+/*CONFIGURACION INDICE*/
 .indice {
     border: 2px solid lightblue;
-    background-color: #CFE3EA;
+    background-color: rgba(207, 227, 234, 0.5);
     margin-right: 70%;
     padding: 10px;
 
 }
+
+.subindice {
+    text-decoration: none;
+}
+
+.subindice:hover{
+    text-decoration: underline;
+    background: none;
+}
+
+/*CONFIGURACION DE LAS REFERENCIAS*/
+.referencia {
+    text-decoration: none;
+    color: black;
+}
+
+.referencia:hover{
+    background: none;
+    text-decoration: underline;
+    color: darkblue;
+}
+
+h5, h6{
+    color: #2D697F;
+}
+
+
+/*TABLA DE ANTERIOR Y SIGUIENTE*/
+table.nav {
+    margin: 4px 0;
+    padding: 5px;
+    width: 100%;
+}
+
+tbody {
+    margin: 0;
+    width: 100%;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    margin: 0;
+    width: 100%;
+}
+
+td{
+    margin: 0;
+    width: 100%;
+}
+
+.izq{
+    text-align: left;
+}
+
+.der{
+    text-align: right;
+}
+
+.vt{
+    vertical-align: text-top;
+}
+
+.nw{
+    white-space: nowrap;
+}
+
