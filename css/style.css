@@ -230,7 +230,7 @@ html,body{
 
 /*Contenedor donde esta el titulo y las cards*/
 .ContenedorPlanetas{
-    background: url("./assets/fondocards.gif");
+    background: url("/assets/fondocards.gif");
     
 }
 
