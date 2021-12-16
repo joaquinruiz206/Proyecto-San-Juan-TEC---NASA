@@ -21,24 +21,25 @@
 
 <body>
       <!-- Encabezado -->
-  <header>
-    <div>
-      <a href="./index.html"><img src="./assets/logo.png"></a>
-    </div>
-
-    <nav class="nav-disable">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="#">PLanetas</a></li>
-          <li><a href="./login.html">Login</a></li>
-        </ul>
-    </nav>
-
-    <button onclick="openMenu(this)" class="iconos">
-      <i class='bx bx-menu'></i>
-      <i class='bx bx-x disable'></i>
-    </button>
-  </header>
+      <header>
+        <nav class="menu">
+          <label class="logo"><img src="assets/logo.png" alt="Logo de la NASA"></label>
+          <ul class="menu-items">
+            <li class="active"><a href="index.html">Inicio</a></li>
+            <li onclick="openSubmenuPlanet(this)"><a href="#">Planetas</a></li>
+              <ul class="submenu">
+                <li><a href="mercurio.html">Mercurio</a></li>
+                <li><a href="venus.html">Venus</a></li>
+                <li><a href="tierra.html">Tierra</a></li>
+                <li><a href="marte.html">Marte</a></li>
+              </ul>
+            <li><a href="login.html">Iniciar Sesion</a></li>
+          </ul>
+          <span class="btn-menu">
+            <i class='bx bx-menu'></i>
+          </span>
+        </nav>
+    </header>    
      <!-- CUERPO DE PAGINA DE MARTE-->
    <main>
           <!-- TITUTLO Y DESCRIPCION-->

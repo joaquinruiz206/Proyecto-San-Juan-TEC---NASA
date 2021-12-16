@@ -21,24 +21,25 @@
 
 <body>
       <!-- Encabezado -->
-  <header>
-    <div>
-      <a href="./index.html"><img src="./assets/logo.png"></a>
-    </div>
-
-    <nav class="nav-disable">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="#">PLanetas</a></li>
-          <li><a href="./login.html">Login</a></li>
-        </ul>
-    </nav>
-
-    <button onclick="openMenu(this)" class="iconos">
-      <i class='bx bx-menu'></i>
-      <i class='bx bx-x disable'></i>
-    </button>
-  </header>
+      <header>
+        <nav class="menu">
+          <label class="logo"><img src="assets/logo.png" alt="Logo de la NASA"></label>
+          <ul class="menu-items">
+            <li class="active"><a href="index.html">Inicio</a></li>
+            <li onclick="openSubmenuPlanet(this)"><a href="#">Planetas</a></li>
+              <ul class="submenu">
+                <li><a href="mercurio.html">Mercurio</a></li>
+                <li><a href="venus.html">Venus</a></li>
+                <li><a href="tierra.html">Tierra</a></li>
+                <li><a href="marte.html">Marte</a></li>
+              </ul>
+            <li><a href="login.html">Iniciar Sesion</a></li>
+          </ul>
+          <span class="btn-menu">
+            <i class='bx bx-menu'></i>
+          </span>
+        </nav>
+    </header>
      <!-- CUERPO DE PAGINA DE MERCURIO-->
    <main>
           <!-- TITUTLO Y DESCRIPCION-->
@@ -66,6 +67,9 @@
 
                 <h5 id="OrigenMercurio"><br>El origen de Mercurio</h5>
                 <p>La teoría más aceptada por la ciencia indica que <b>Mercurio</b> se comenzó a formar junto a la mayoría de los cuerpos astrales del sistema solar. Esto es, <b>hace 4500 millones de años</b>. Al igual que todos los astros dentro y fuera del cinturón de asteroides, sus inicios fueron en el disco protoplanetario que se formó luego del nacimiento del Sol.</p>
+                <br>
+                <h5 id="OrigenMercurio">El origen de Mercurio</h5>
+                <p>La teoría más aceptada por la ciencia indica que Mercurio se comenzó a formar junto a la mayoría de los cuerpos astrales del sistema solar. Esto es, hace 4500 millones de años. Al igual que todos los astros dentro y fuera del cinturón de asteroides, sus inicios fueron en el disco protoplanetario que se formó luego del nacimiento del Sol.</p>
                 <p>Después de que gran parte de la masa restante del colapso gravitacional se reuniera en el centro del sistema para conformar el Sol, los restos fueron aplanados. Dicho aplanamiento fue conformado por la fuerza gravitacional naciente del mismo Sol, dando lugar al disco protoplanetario.</p>
                 <p>Transcurridos millones de años, el polvo y los restos fueron tomando órbita alrededor del Sol. Gracias a la formación de dicha órbita, otros cuerpos menores y escombros restantes fueron atrapados en las órbitas de cuerpos mayores. Este acto dio lugar a la <b>formación de planetas, como lo es Mercurio.</b></p>
                 <p>Un evento que comenzó después del colapso gravitacional, en alguna parte pequeña de alguna nube molecular gigante del espacio, dio lugar al nacimiento de nuestro sistema solar. Actualmente muchos investigadores siguen persiguiendo pistas para encontrar pruebas que indiquen con exactitud dónde y cuándo se originó nuestro sistema solar, incluyendo obviamente a <b>Mercurio.</b></p>
