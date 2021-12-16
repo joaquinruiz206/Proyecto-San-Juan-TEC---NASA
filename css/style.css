@@ -24,8 +24,6 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #fff;
-    box-shadow: 5px 0 10px rgba(0, 0, 0, .6);
 }
 
 .logo{
@@ -256,8 +254,7 @@ html,body{
 
 /*Contenedor donde esta el titulo y las cards*/
 .ContenedorPlanetas{
-    height: 100%;
-    background-image: url("/assets/fondocards.gif");
+    background: url("/assets/fondocards.gif");
     
 }
 
