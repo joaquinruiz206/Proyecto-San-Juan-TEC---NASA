@@ -84,6 +84,16 @@ body{
     z-index: 1000;
 }
 
+.submenuUnhide{
+    margin-top: 9vh;
+    margin-left: 6vh;
+    background-color: #0a141d;
+    display: block;
+    position: absolute;
+    color: #fff;
+    z-index: 1000;
+}
+
 .iconos{
     display: none;
 }
