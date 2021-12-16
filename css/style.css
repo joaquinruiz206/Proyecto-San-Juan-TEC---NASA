@@ -79,8 +79,16 @@ body{
 .submenuUnhide{
     display: block;
     position: absolute;
-    margin-top: 20vh;
-    margin-left: -12vh;
+    color: #fff;
+    z-index: 1000;
+}
+
+.iconos{
+    display: none;
+}
+
+.iconos i{
+    font-size: 25px;
     color: #fff;
 }
 
@@ -136,6 +144,11 @@ body{
     .logo{
         padding-left: 35px;
         height: 65px;
+    }
+
+    .iconos{
+        display: block;
+        margin-right: 5vh;
     }
 }
 
