@@ -4,7 +4,9 @@
 }
 
 .fondo {
-    background: #217FA1;
+    background: url('../assets/nebulosa.jpg');
+
+    /*background: #217FA1;*/
 }
 
 .contCard2{
