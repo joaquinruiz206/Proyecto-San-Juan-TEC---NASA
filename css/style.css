@@ -66,9 +66,6 @@ body{
     display: none;
 }
 
-.unhide{
-    top: 65px;
-}
 
 .submenu{
     display: none;
@@ -121,6 +118,10 @@ body{
     .btn-menu{
         display: inline-flex;
     }
+    
+    .unhide{
+        position: absolute;
+    }
 
     .menu-items{
         position: fixed;
@@ -137,7 +138,7 @@ body{
         margin: 30px 0 0 0;
         line-height: 30px;
     }
-
+    
     .menu-items li:hover{
         background: none;
     }
