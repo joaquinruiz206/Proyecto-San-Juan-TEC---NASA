@@ -273,11 +273,7 @@ html,body{
 /*Contenedor donde esta el titulo y las cards*/
 .ContenedorPlanetas{
     height: 100%;
-<<<<<<< HEAD
     background-image: url("../assets/fondocards.gif"); 
-=======
-    background-image: url("/assets/fondocards.gif"); 
->>>>>>> b93c7afec758dbe7d3f9e38c1b04c7c62c4932e2
 }
 
 /*Titulo de las cards*/
