@@ -23,7 +23,7 @@
 
   <header >
     <nav class="menu">
-      <label class="logo"><img src="assets/logo.png" alt="Logo de la NASA"></label>
+      <a href="index.html"><label class="logo"><img src="assets/logo.png" alt="Logo de la NASA"></label></a>
       <ul class="menu-items">
         <li class="active"><a href="index.html">Inicio</a></li>
         <li onclick="openSubmenu(this)"><a href="#">Planetas</a></li>
@@ -35,11 +35,12 @@
           </ul>
         <li><a href="login.html">Iniciar Sesion</a></li>
       </ul>
-      <span onclick="openMenu(this)" class="btn-menu">
-        <i class='bx bx-menu'></i>
-      </span>
-    </nav>
-    
+
+      <div class="iconos">
+        <a href="index.html"><i class='bx bx-home'></i></a>
+        <a href="#"><i class="bx bx-planet" onclick="openSubmenu(this)"></i></a>
+        <a href ="login.html"><i class="bx bx-log-in"></i></a>
+      </div>
   </header>
      <!-- CUERPO DE PAGINA -->
    <main>
