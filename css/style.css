@@ -86,7 +86,7 @@ header{
 }
 
 .submenuUnhide-Planets{
-    margin-top: 9vh;
+    margin-top: 7vh;
     margin-left: 6vh;
     background-color: #0a141d;
     display: block;
@@ -169,7 +169,7 @@ html,body{
 .pie-pagina{
     width: 100%;
     background-color: #0a141d;
-  
+    
 }
 
 .pie-pagina .grupo-1{
@@ -406,7 +406,7 @@ html,body{
 /* .login-box input{ */
     .btn-secondary{
     border: none;
-    border-bottom: 1px solid #fff;
+    border: 2px solid #fff;
     background:rgb(30, 32, 39);
     outline: none;
     height: 40px;
@@ -425,3 +425,4 @@ html,body{
 .login-box a:hover{
     color: #fff
 }
+

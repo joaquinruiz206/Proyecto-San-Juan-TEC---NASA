@@ -1,5 +1,5 @@
 const url = 'https://images-api.nasa.gov/search?q=mercury&media_type=image'
-const api_key = config.NASA_API_KEY
+
 const fetchNASAData = async () => {
     try {
       //const response = await fetch(`${url}${api_key}`)
