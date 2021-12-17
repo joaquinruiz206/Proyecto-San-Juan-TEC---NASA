@@ -335,7 +335,7 @@ html,body{
     align-items: center;
     height: 100vh;
     width: 100%;
-    background: url(/assets/galaxia.gif);
+    background: url(../assets/galaxia.gif);
     background-repeat: no-repeat;
     background-position:center;
     background-size: cover;
@@ -406,7 +406,7 @@ html,body{
 /* .login-box input{ */
     .btn-secondary{
     border: none;
-    border-bottom: 1px solid #fff;
+    border: 2px solid #fff;
     background:rgb(30, 32, 39);
     outline: none;
     height: 40px;
