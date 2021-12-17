@@ -16,19 +16,23 @@ body{
 }
 
 /*formato del header*/
-
-.menu{
+header{
     background-color: #0a141d;
+}
+.menu{
+    
     height: 100px;
-    width: 100%;
+    width: 90%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 auto;
 }
 
 .logo{
     height: 100px;
     display: flex;
+    width: 200px;
 }
 
 .menu-items{
@@ -124,6 +128,7 @@ body{
     }
 
     .menu-items{
+        
         position: fixed;
         width: 100%;
         height: calc(100% - 65px);
@@ -268,8 +273,8 @@ html,body{
 
 /*Contenedor donde esta el titulo y las cards*/
 .ContenedorPlanetas{
-    background: url("/assets/fondocards.gif");
-    
+    height: 100%;
+    background-image: url("../assets/fondocards.gif"); 
 }
 
 /*Titulo de las cards*/
