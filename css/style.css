@@ -16,19 +16,23 @@ body{
 }
 
 /*formato del header*/
-
-.menu{
+header{
     background-color: #0a141d;
+}
+.menu{
+    
     height: 100px;
-    width: 100%;
+    width: 90%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 auto;
 }
 
 .logo{
     height: 100px;
     display: flex;
+    width: 200px;
 }
 
 .menu-items{
