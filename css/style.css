@@ -15,6 +15,10 @@ body{
     background-size: cover;
 }
 
+.menu .logo img{
+
+}
+
 /*formato del header*/
 header{
     background-color: #0a141d;
