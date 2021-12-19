@@ -253,7 +253,7 @@ html,body{
 /*Contenedor donde esta el titulo y las cards*/
 .ContenedorPlanetas{
     height: 100%;
-    background-image: url(".../assets/fondocards.gif");
+    background-image: url("./assets/fondocards.gif");
 }
 
 /*Titulo de las cards*/
@@ -335,7 +335,7 @@ html,body{
     align-items: center;
     height: 100vh;
     width: 100%;
-    background-image: url("./assets/galaxia.gif");
+    background-image: url(".../assets/galaxia.gif");
     background-repeat: no-repeat;
     background-position:center;
     background-size: cover;
