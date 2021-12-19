@@ -152,6 +152,33 @@ input[type=radio]{
     z-index: 1;
 }
 
+tbody{
+    width: 100%;
+}
+
+tr{
+    width: 100%;
+}
+
+td{
+    width: 100%;
+}
+
+.izq {
+    text-align: left;
+}
+
+.der {
+    text-align: right;
+}
+
+.vt{
+    vertical-align: top;
+}
+
+.nw{
+    white-space: nowrap;
+}
 
 
 
