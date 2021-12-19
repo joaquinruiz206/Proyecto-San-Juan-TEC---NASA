@@ -254,7 +254,7 @@ html,body{
 .ContenedorPlanetas{
     height: 100%;
  
-    background-image: url("../assets/fondocards.gif");
+    background-image: url("./assets/fondocards.gif");
    
 }
 
